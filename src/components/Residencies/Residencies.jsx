@@ -12,7 +12,7 @@ const Residencies = () => {
             <div className="paddings innerWidth r-container">
                 <dev className="r-head flexColStart">
                     <span className='orangeText'>Best Choices</span>
-                    <span className='primaryText'>Popular Residencies</span>
+                    <span className='primaryText'>Popular Housing</span>
                 </dev>
 
                 {/* Swiper use */}
@@ -24,7 +24,7 @@ const Residencies = () => {
                                 <div className='flexColStart r-card'>
                                     <img src={card.image} alt="home" />
                                     <span className='secondaryText r-price'>
-                                        <span style={{ color: "orange" }} >$</span>
+                                        <span style={{ color: "orange" }} >₹ </span>
                                         <span>{card.price}</span>
                                     </span>
 

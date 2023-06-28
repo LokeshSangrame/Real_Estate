@@ -10,14 +10,14 @@ const Footer = () => {
                 <div className="flexColStart f-left">
                     <img src="./logo2.png" alt="" />
 
-                    <span className='secondaryText'>Our vision is to make all people <br />the best place to live for them.</span>
+                    <span className='secondaryText'>Our vision is to create the perfect living space for every individual, <br />where they can truly thrive and experience a blissful life.</span>
                 </div>
 
                 {/* Right Side */}
 
                 <div className="flexColStart f-right">
                     <span className='primaryText'>Information</span>
-                    <span className='secondaryText'>145 New Tork,USA</span>
+                    <span className='secondaryText'>Civil lines , Nagpur, India</span>
 
                     <div className="flexCenter f-menu">
                         <span>Property</span>
